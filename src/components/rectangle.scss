@@ -1,0 +1,12 @@
+.rectangle {
+  width: 100px;
+  height: 100px;
+  background-color: #eee;
+  border: 1px solid #aaa;
+  position: absolute;
+  box-sizing: border-box;
+
+  &.animated {
+    transition: top 0.3s ease-out, left 0.3s ease-out;
+  }
+}

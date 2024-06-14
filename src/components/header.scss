@@ -1,0 +1,45 @@
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 100px;
+  flex-shrink: 1;
+  width: 100%;
+
+  .headerLogoTitle {
+    display: flex;
+    align-items: center;
+  }
+
+  .title {
+    font-size: 34px;
+    font-weight: 900;
+  }
+  nav {
+    ul {
+      display: flex;
+      margin: 0;
+      padding: 0;
+      li {
+        list-style: none;
+
+        a {
+          color: #2a4557;
+          padding: 20px;
+          border-radius: 2px;
+
+          &:hover {
+            background-color: #2a455744;
+            color: #2a4557;
+          }
+        }
+      }
+    }
+  }
+
+  img {
+    height: 80px;
+    width: 100px;
+    margin-right: 10px;
+  }
+}
